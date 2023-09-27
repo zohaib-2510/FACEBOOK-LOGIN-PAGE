@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@400;500&family=Gochi+Hand&family=Great+Vibes&family=Handlee&family=Indie+Flower&family=Kaushan+Script&family=Lumanosimo&family=Molengo&family=Montserrat&family=Mooli&family=Roboto:wght@400;500;700&family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #F0F2F5;
+    position: relative;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.half{
+    min-height: 100vh;
+    width: 50%;
+    padding-top: 13.4vw;
+    padding-left: 13.4vw;
+}
+.feild{
+    padding-top: 18px;
+border: none;
+width: 385px;
+display: flex;
+justify-content: center;
+height: 373px;
+background-color: #FFFFFF;
+border-radius: 8px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+form input {
+    width: 340px;
+    height: 52px;
+    border: 1px solid #CCCCCC;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 1vw;
+    
+}
+
+.half2{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 10vw;
+    padding-right: 6vw;
+    width: 50%;
+}
+ .half h1{
+    color: #1877F2;
+
+
+
+
+font-family: 'Handlee', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+font-size: 3.8vw;
+}
+.half p{
+    color: black;
+    font-size: 1.9vw;
+    font-family: 'Handlee', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+
+#btn1{
+    width: 340px;
+    height: 52px;
+    background-color:#0D65D9;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+font-size: 20px;
+font-weight: 750;
+}
+
+#aaa{
+    color: #1877F2;
+    text-decoration: none;
+    font-family: 'Handlee', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+padding-bottom: 22px;
+}
+
+
+.aa{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#btn2{
+    width: 170px;
+    height: 52px;
+    border: none;
+    background-color: #3BA626;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+margin-top: 25px;
+    font-size: 17px;
+font-weight: 750;
+
+}
+
+
+
+
+.mainnnnn{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (max-width:1300px) {
+    body{
+        width: 100%;
+        height: auto;
+    }
+    .main{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .half{
+        width: 100%;
+        height: auto;
+    }
+    .half2{
+        width: 100%;
+        height: auto;
+    }
+    .half h1{
+        font-size: 8vw;
+        width: 100%;
+    }
+    .half p{
+            width: 100%;
+            font-size: 3.5vw;
+        }
+        .feild{
+            width: 50%;
+            height: 100%;
+        }
+        .main{
+        height: auto;
+
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
